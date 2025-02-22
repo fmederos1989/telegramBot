@@ -4,6 +4,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters
 import os
 import asyncio
 
+
 TOKEN = os.getenv("TOKEN")  # Token del bot
 WEBHOOK_URL = "https://telegrambot-2o8t.onrender.com"  # Reemplaza con la URL de tu Render
 
