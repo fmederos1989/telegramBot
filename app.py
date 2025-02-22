@@ -4,7 +4,7 @@ from flask import Flask, request
 import os
 
 TOKEN = os.getenv("TOKEN")  # Obtiene el token desde las variables de entorno
-WEBHOOK_URL = "https://tu-app.onrender.com"  # Cambia esto con tu URL en Render
+WEBHOOK_URL = "https://telegrambot-2o8t.onrender.com"  # Cambia esto con tu URL en Render
 
 app = Flask(__name__)
 
